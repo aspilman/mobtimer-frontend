@@ -1,9 +1,12 @@
 # Vue Getting Started
-The beginnings of a mob team timer, build in Vue.js
+The beginnings of a mob team timer, build in Vue.js. It uses JSON-server to provide a simple live server with hot reload. The data is stored in db.json.
 
 ## Quick Start
 
 1. Clone this repository
+    ```bash
+    git clone https://github.com/erik-taylor-arriva/mobtimer-frontend.git
+    ```
 
 1. Install the npm packages
 
@@ -14,13 +17,5 @@ The beginnings of a mob team timer, build in Vue.js
 1. Run the app!
 
    ```bash
-   npm run serve
+   npm run dev
    ```
-
-## Resources
-
-- [VS Code](https://code.visualstudio.com?wt.mc_id=vuegettingstarted-github-jopapa)
-- [VS Code Extension Marketplace](https://marketplace.visualstudio.com/vscode?wt.mc_id=vuegettingstarted-github-jopapa)
-- [VS Code - macOS keys](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf?WT.mc_id=vuegettingstarted-github-jopapa)
-- [VS Code - Windows keys](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf?WT.mc_id=vuegettingstarted-github-jopapa)
-- [Debugging Vue in VS Code](https://code.visualstudio.com/docs/nodejs/vuejs-tutorial?wt.mc_id=vuegettingstarted-github-jopapa)
