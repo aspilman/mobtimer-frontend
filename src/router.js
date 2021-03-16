@@ -49,6 +49,12 @@ export default new Router({
         ),
     },
     {
+      path: '/mobbers/',
+      name: 'mobbers',
+      component: () =>
+        import(/* webpackChunkName: "bundle.mobbers" */ './views/mobbers.vue'),
+    },
+    {
       path: '/about',
       name: 'about',
       component: () =>

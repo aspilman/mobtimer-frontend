@@ -5,6 +5,9 @@ import { inputDateFormat } from './constants';
 
 import { API } from './config';
 
+import { mobbers } from './data/mobbers';
+import { parseList, parseItem } from './data/helpers';
+
 const getHeroes = async function() {
   try {
     const response = await axios.get(`${API}/heroes`);
@@ -129,26 +132,8 @@ const deleteVillain = async function(villain) {
   }
 };
 
-const parseList = response => {
-  if (response.status !== 200) throw Error(response.message);
-  if (!response.data) return [];
-  let list = response.data;
-  if (typeof list !== 'object') {
-    list = [];
-  }
-  return list;
-};
-
-export const parseItem = (response, code) => {
-  if (response.status !== code) throw Error(response.message);
-  let item = response.data;
-  if (typeof item !== 'object') {
-    item = undefined;
-  }
-  return item;
-};
-
 export const dataService = {
+  mobbers,
   getHeroes,
   getHero,
   updateHero,

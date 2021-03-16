@@ -1,5 +1,8 @@
 {
   "/api/*": "/$1",
   "/hero": "/heroes",
+  "/mob": "/mob",
+  "/mobber": "/mobber",
+  "/mobsession": "/mobsession",
   "/reset": "/reset"
 }

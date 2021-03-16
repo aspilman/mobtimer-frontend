@@ -4,6 +4,7 @@
     <ul class="menu-list">
       <router-link to="/heroes">Heroes</router-link>
       <router-link to="/villains">Villains</router-link>
+      <router-link to="/mobbers">Mobbers</router-link>
       <router-link to="/about">About</router-link>
     </ul>
   </nav>

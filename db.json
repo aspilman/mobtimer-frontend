@@ -88,5 +88,98 @@
       "lastName": "Cobb",
       "description": "Ten percent of nothin' is ... let me do the math here ... nothin' into nothin' ... carry the nothin'"
     }
+  ],
+  "Domain" : [
+    {
+      "Id": 1,
+      "Name": "Stays"
+    }
+  ],
+  "Team": [
+    {
+      "Id": 1,
+      "Name": "Hotels",
+      "DomainId": 1
+    },
+    {
+      "Id": 2,
+      "Name": "Resorts",
+      "DomainId": 1
+    }
+  ],
+  "Mob": [
+    {
+      "Id": 1,
+      "Name": "Mob 1",
+      "TeamId": 1
+    },
+    {
+      "Id": 2,
+      "Name": "Mob 2",
+      "TeamId": 1
+    },
+    {
+      "Id": 3,
+      "Name": "Mob 3",
+      "TeamId": 1
+    }
+  ],
+  "Mobber": [
+    {
+      "Id": 1,
+      "Name": "Aaron"
+    },
+    {
+      "Id": 2,
+      "Name": "Campbell"
+    },
+    {
+      "Id": 3,
+      "Name": "Erik"
+    },
+    {
+      "Id": 4,
+      "Name": "Greg"
+    },
+    {
+      "Id": 5,
+      "Name": "Janean"
+    },
+    {
+      "Id": 6,
+      "Name": "Richard"
+    }
+  ],
+  "MobMobber": [
+    {
+      "Id": 1,
+      "MobId": 1,
+      "MobberId": 1
+    },
+    {
+      "Id": 2,
+      "MobId": 1,
+      "MobberId": 2
+    },
+    {
+      "Id": 3,
+      "MobId": 1,
+      "MobberId": 3
+    },
+    {
+      "Id": 4,
+      "MobId": 1,
+      "MobberId": 4
+    },
+    {
+      "Id": 5,
+      "MobId": 1,
+      "MobberId": 5
+    },
+    {
+      "Id": 6,
+      "MobId": 1,
+      "MobberId": 6
+    }
   ]
 }
